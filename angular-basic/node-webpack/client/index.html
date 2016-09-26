@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <link href="style/main.css" rel="stylesheet"/>
+    <!--<link href="style/select2.css" rel="stylesheet"/>-->
+    <link href="style/selectize.default.css" rel="stylesheet"/>
+    <link href="/vendorcss/ui-select/dist/select.min.css" rel="stylesheet"/>
+    <title></title>
+</head>
+<body ng-controller="mainController">
+<div class="flex__row_100vh">
+    <div class="flex__row_500 wrapper__menu">
+        <div>
+            <ul class="flex_clear">
+                <li ng-repeat="menu in menus" >
+                    <a href="{{menu.href}}" ng-bind="menu.name" ng-class="{true:'hides'}[menuInfo.selectActive == menu.id]" ng-click="getMenu()"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div  class="flex__row_1">
+        <div ng-view>
+        </div>
+    </div>
+</div>
+</body>
+<script src="build/bundle.js"></script>
+</html>

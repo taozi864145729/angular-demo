@@ -1,0 +1,33 @@
+.common__page{
+  margin: 10px 0;
+  height: 35px;
+  line-height: 35px;
+  input{
+    background-color: #EBECEE;
+    height: 35px;
+    line-height: 35px;
+    border:solid 1px #DDE3E3;
+    margin: 0 5px;
+    padding-left: 5px;
+  }
+}
+.page__show_input{
+  width: 50px;
+}
+.page__input{
+  width: 60px;
+}
+.page__icon{
+  border: solid 1px #DDE3E3;
+  width: 35px;
+  text-align: center;
+}
+.margin__left_5{
+   margin-left: 5px;
+}
+.margin__right_5{
+  margin-right: 5px;
+}
+.page__width{
+  width: 50%;
+}

@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+*:before, *:after {
+  box-sizing: border-box; }
+
+body, html {
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-transform: none;
+  text-decoration: none; }
+
+img {
+  vertical-align: middle; }
+
+.button__dark {
+  border: 1px;
+  background-color: #808080;
+  min-width: 120px;
+  height: 30px;
+  color: white;
+  margin-right: 5px; }
+
+.button__light {
+  border: 1px;
+  background-color: #d9d9d9;
+  min-width: 120px;
+  height: 30px;
+  color: black;
+  margin-right: 5px; }
+
+.text__head-title {
+  font-size: 24px; }
+
+.top_menu {
+  width: 100%;
+  background: #3f3f3f;
+  height: 60px; }
+
+.flex__row {
+  display: flex;
+  flex-direction: row; }
+
+.flex__row_100vh {
+  display: flex;
+  flex-direction: row;
+  height: 100%; }
+
+.flex__row_1 {
+  flex: 1; }
+
+.flex__row_500 {
+  width: 500px; }
+
+.flex_clear {
+  clear: both; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.clear {
+  clear: both; }
+
+.align-center {
+  text-align: center; }
+
+.align-right {
+  text-align: right; }
+
+.align-left {
+  text-align: left; }
+
+.hides {
+  border-left: solid 6px #fff;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, 0.5);
+  padding-left: 46px;
+  color: red !important; }
+
+select {
+  height: 30px;
+  min-width: 120px;
+  border: solid 1px #ddd;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url("/image/arrow.png") no-repeat scroll right center transparent;
+  padding-right: 14px;
+  padding-left: 10px;
+  width: 100%; }
+
+select:after {
+  background: url("/image/arrow.png"); }
+
+select::-ms-expand {
+  display: none; }
+
+.common__page {
+  margin: 10px 0;
+  height: 35px;
+  line-height: 35px; }
+  .common__page input {
+    background-color: #EBECEE;
+    height: 35px;
+    line-height: 35px;
+    border: solid 1px #DDE3E3;
+    margin: 0 5px;
+    padding-left: 5px; }
+
+.page__show_input {
+  width: 50px; }
+
+.page__input {
+  width: 60px; }
+
+.page__icon {
+  border: solid 1px #DDE3E3;
+  width: 35px;
+  text-align: center; }
+
+.margin__left_5 {
+  margin-left: 5px; }
+
+.margin__right_5 {
+  margin-right: 5px; }
+
+.page__width {
+  width: 50%; }
+
+.wrapper__menu {
+  background-color: #E3E4E6;
+  padding: 20px; }
+  .wrapper__menu li {
+    height: 35px;
+    line-height: 35px; }
+
+/*# sourceMappingURL=main.css.map */

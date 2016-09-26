@@ -1,0 +1,17 @@
+select{
+    height: 30px;
+    min-width: 120px;
+    border: solid 1px #ddd;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url("/image/arrow.png")no-repeat scroll right center transparent;
+    padding-right: 14px;
+    padding-left: 10px;
+    width: 100%;
+
+}
+select:after{
+    background: url("/image/arrow.png");
+}
+select::-ms-expand { display: none; }

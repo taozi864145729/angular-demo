@@ -1,0 +1,17 @@
+@import "setting.global";
+
+$button: (dark, $dark,white,5px),
+        (light, $light,black,0px);
+
+@each $type, $color,$font-color,$margin-width in $button {
+  .button__#{$type} {
+    border: 1px;
+    background-color: $color;
+    min-width: $button-min-width;
+    height: $button-height;
+    color: $font-color;
+    margin-right: 5px;
+  }
+}
+
+
